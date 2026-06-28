@@ -1,0 +1,7 @@
+print("Hello")
+print("Line 1", "Line 2", "Line 3")
+print("A", "B", "C", sep="-")
+print("No newline", end=" ")
+print("same line")
+print()
+print("With sep:", 1, 2, 3, sep=", ")

@@ -1,0 +1,20 @@
+point = (3, 5)
+rgb = (255, 128, 0)
+empty = ()
+single = (42,)
+
+print(point)
+print(rgb)
+print(type(single))
+print(len(rgb))
+print(rgb[0])
+print(rgb[-1])
+
+coordinates = (10, 20, 30)
+print(coordinates[1:])
+
+t = (1, 2, 3, 2, 1)
+print(t.count(2))
+print(t.index(3))
+print((1, 2) + (3, 4))
+print((1, 2) * 3)

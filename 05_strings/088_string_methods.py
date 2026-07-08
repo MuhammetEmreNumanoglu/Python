@@ -1,0 +1,17 @@
+text = "  Hello, World!  "
+
+print(text.upper())
+print(text.lower())
+print(text.title())
+print(text.strip())
+print(text.lstrip())
+print(text.rstrip())
+print(text.replace("World", "Python"))
+print(text.count("l"))
+print(text.startswith("  Hello"))
+print(text.endswith("!  "))
+print(text.find("World"))
+print(",".join(["a", "b", "c"]))
+print("a,b,c".split(","))
+print(text.center(30, "*"))
+print(text.strip().zfill(20))
